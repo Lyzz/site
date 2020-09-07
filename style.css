@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+fieldset {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 5px;
+  border: 3px solid red;
+  width: 350px;
+  text-align: center;
+}
+fieldset > input {
+  text-align: center;
+}
+input {
+  margin: 5px;
+}
+label {
+  color: red;
+}
+/* .divers {
+  display: flex;
+  justify-content: space-around;
+} */
+
+article {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  width: 100%;
+}
+p {
+  width: 100px;
+}
